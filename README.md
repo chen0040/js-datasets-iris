@@ -34,6 +34,9 @@ console.log(iris.petalLength);
 // == PRINT the petalWidth == //
 console.log(iris.petalWidth);
 
+// == shuffle the data rows in the iris dataset == //
+iris.shuffle();
+
 ```
 
 In HTML
@@ -58,4 +61,7 @@ console.log(jsIris.petalLength);
 
 // == PRINT the petalWidth == //
 console.log(jsIris.petalWidth);
+
+// == shuffle the data rows in the iris dataset == //
+jsIris.shuffle();
 ```

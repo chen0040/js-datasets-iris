@@ -184,6 +184,26 @@ var jsIris = jsIris || {};
             jss.speciesClasses.push(row[4]);
         }
     }
+    
+    jss.exhange = function(a, i, j) {
+        var temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    };
+    
+    jss.shuffle = function(){
+      var N = this.rowCount;
+      for(var j=1; j < N; ++j){
+          var i = Math.floor(Math.random() * (j+1));
+          
+          this.exhange(jss.sepalLength, i, j);
+          this.exhange(jss.sepalWidth, i, j);
+          this.exhange(jss.petalLength, i, j);
+          this.exhange(jss.petalWidth, i, j);
+          this.exhange(jss.species, i, j);
+          this.exhange(jss.data, i, j);
+      }
+    };
 
 })(jsIris);
 
