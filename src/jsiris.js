@@ -207,6 +207,7 @@ var jsIris = jsIris || {};
 
 })(jsIris);
 
+var module = module || {};
 if(module) {
 	module.exports = jsIris;
 }
