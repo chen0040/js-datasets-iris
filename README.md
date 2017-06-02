@@ -43,25 +43,6 @@ In HTML
 
 Include the "node_modules/js-datasets-iris/build/jsiris.min.js" (or "node_modules/js-datasets-iris/src/jsiris.js") in your HTML \<script\> tag
 
-```javascript
-// == PRITN ROW COUNT == //
-console.log(jsIris.rowCount);
+The sample code can be found in the [example.html](https://raw.githubusercontent.com/chen0040/js-datasets-iris/master/example.html)
 
-// == PRINT ALL DATA in the format of [[sepalLength, sepalWidth, petalLength, petalWidth, specisies], ...] == //
-console.log(jsIris.data);
 
-// == PRINT the sepalLength == //
-console.log(jsIris.sepalLength);
-
-// == PRINT the sepalWidth == //
-console.log(jsIris.sepalWidth);
-
-// == PRINT the petalLength == //
-console.log(jsIris.petalLength);
-
-// == PRINT the petalWidth == //
-console.log(jsIris.petalWidth);
-
-// == shuffle the data rows in the iris dataset == //
-jsIris.shuffle();
-```
