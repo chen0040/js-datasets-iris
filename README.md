@@ -43,6 +43,6 @@ In HTML
 
 Include the "node_modules/js-datasets-iris/build/jsiris.min.js" (or "node_modules/js-datasets-iris/src/jsiris.js") in your HTML \<script\> tag
 
-The sample code can be found in the [example.html](https://raw.githubusercontent.com/chen0040/js-datasets-iris/master/example.html)
+The sample code can be found in the [example.html](https://rawgit.com/chen0040/js-datasets-iris/master/example.html)
 
 
